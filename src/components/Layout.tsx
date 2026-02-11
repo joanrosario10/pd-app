@@ -18,7 +18,7 @@ export default function Layout() {
         <div className="max-w-5xl mx-auto px-3 sm:px-4 h-12 sm:h-14 flex items-center justify-between gap-2">
           <Link to="/" className="flex items-center gap-2 text-gray-800 no-underline shrink-0 min-w-0">
             <img src="/logo.png" alt="Logo" className="h-7 sm:h-8 w-auto" />
-            <span className="font-brand text-lg sm:text-xl font-semibold italic text-gray-800">Soignant</span>
+            <span className="font-brand text-lg sm:text-xl font-semibold italic text-gray-800">p/d</span>
           </Link>
           <nav className="flex items-center flex-wrap justify-end gap-1 sm:gap-4 min-w-0">
             <Link to="/" className={linkClass('/')}>
