@@ -1,4 +1,4 @@
-# p/d — Medication reminder
+# Soignant — Medication reminder
 
 A simple app to help patients remember medications and let caretakers add and track them. One account can be used by both patient and caretaker.
 

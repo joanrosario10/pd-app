@@ -64,7 +64,7 @@ export default function Login() {
         <div className="text-center mb-8">
           <div className="flex items-center justify-center gap-2 mb-4">
             <img src="/logo.png" alt="Logo" className="h-12 w-auto" />
-            <span className="font-brand text-2xl font-semibold italic text-gray-900">p/d</span>
+            <span className="font-brand text-2xl font-semibold italic text-gray-900">Soignant</span>
           </div>
           <h1 className="text-2xl font-medium text-gray-900">Sign in</h1>
           <p className="text-gray-600 mt-1 text-sm">Sign in to continue</p>
