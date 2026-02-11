@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply overflow-x-hidden;
+  }
+  body {
+    @apply bg-surface text-gray-800 antialiased min-w-0 overflow-x-hidden;
+  }
+}
+
+/* Consistent page layout (dashboard-style) */
+@layer components {
+  .page-card {
+    @apply bg-white rounded-xl border border-gray-200 p-4 sm:p-5;
+  }
+  .page-title {
+    @apply text-lg sm:text-xl font-medium text-gray-900;
+  }
+  .page-subtitle {
+    @apply text-sm text-gray-500 mt-0.5;
+  }
+}
